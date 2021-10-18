@@ -23,3 +23,24 @@ h3
     color:whitesmoke;
     padding: 8px;
 }
+nav ul{
+    background-color: rgb(221, 33, 33);
+    text-align: center;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li :hover{
+    background-color: rgb(212, 195, 195);
+    color: black;
+}
